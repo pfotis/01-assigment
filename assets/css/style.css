@@ -19,61 +19,53 @@
     margin: 0;
 }
 /****** 2.0 Fonts ******/
-/* all the paragraphs have the same font-size */
+
 p {
     font-size: 16px;
 }
-/* the following tags and classes have the same font-family */
-header nav, .search-engine-optimization, .online-reputation-management, .social-media-marketing, .benefits {
+
+header nav, article, aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* header and footer have the same font-family */
+
 header, footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /****** 3.0 Color Palette ******/
-/* the following tags and classes use the same color for the font */
-header, a, .search-engine-optimization, .online-reputation-management, .social-media-marketing, .benefit-lead, .benefit-brand, .benefit-cost {
+
+header, a, article, aside {
     color: #ffffff;
 }
-/* the following class use different color for the font from above and the semantic tag <mark> has by default yellow colour we use the second 
-line to change the background-color to the same color has the header 
-*/
+
 .seo {
     color: #d9dcd6;
     background-color: #2a607c;
 }
-/* the tag body make almost hole webpage has the same color as background */
+
 body {
     background-color: #d9dcd6;
 }
 
 /****** 4.0 Header ******/
-/* the tag header create a virtual box where included all the elements from the header and have 20px distance from all the directions additional
-give us different colour as background from the body
-*/
+
 header {
     padding: 20px;
     background-color: #2a607c;
 }
-/* the tag "header h1" change the font-size  and keep at the same line with the "header nav" */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* the tag "header nav" create more space from the top of the virtual box and more space from the right element and align at right and bigger
-font-size
-*/
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }    
-/* the tag a create space 25px from the lefr element , "the text-decoration: none;" help us to remove any by default decoration exist 
-in this case we have links and help to remove the line under of the text
-*/
+
 a {
     margin-left: 25px;
     text-decoration: none;
@@ -81,54 +73,46 @@ a {
 
 /****** 5.0 Body ******/
 /****** 5.1 Article ******/
-/* the class content determines the width of the articles and keep at the same line the article and aside sections and create space 20px from the
-left side
-*/ 
-.content {
+
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* the following classes they are create a box with backgroud blue colour and height 300px and keep the text 50px distace from all the sides 
-for each box, additional they keep more distance from the bottom element
-*/
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+
+article section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
-/* the following tags create style for the headers of each article bigger font-size and keep more distance from the paregraph */ 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+ 
+article section h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 /****** 5.2 Aside ******/
-/*  the class benefits create a box with blue backgroud , align at right for the box , keep space fromt the right side and determines the 
-width 20% the another 5% left will stay between the article and the aside 
-*/
-.benefits {
+
+aside {
     margin-right: 20px;
     padding: 20px;
     float: right;
     width: 20%;
     background-color: #2589bd;
 }
-/* the following classes create more space from the bottom element */
-.benefit-lead, .benefit-brand, .benefit-cost {
+
+aside section {
     margin-bottom: 32px; 
 }
-/* the followinf tags align center the h3 and keep 10px space between h3 and paragraph */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
+
+aside section h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
 /****** 5.3 Imagery ******/
-/* the class hero insert the image from the css file , the class determines width and height additional create distance from the bottom elements
-the class align the image at the center and the the background image to cover the entire container
-*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -137,37 +121,35 @@ the class align the image at the center and the the background image to cover th
     background-size: cover;
     background-position: center;
 }
-/* the followings tags determines the max heght will be 200px if the image are taller */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+
+article section figure img {
     max-height: 200px;
 }
-/* the class float-left determines the image to be at the left side of the container and the image will have 25px distanse from the text */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/* the class float-right determines the image to be at the right side of the container and the image will have 25px distanse from the text */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/* the following tags determines the image will be at the new line additional space from the top and the bottom and The browser calculates the
-   margin for the left and the right addtional there is max-widht in case the image wider to shrink
-*/
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+
+aside section figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /****** 1.0 Footer ******/
-/* the tag footer keep distance 30px from all directions and no elements float right and left and the text align center */
+
 footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
-/* the tag "footer h2" has bigger font size */
+
 footer h2  {
     font-size: 20px;
 }
