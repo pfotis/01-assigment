@@ -1,44 +1,33 @@
-# 01 HTML CSS Git: Code Refactor
+# Code Refactor
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+This is the my first assigment in the full stack web developer bootcamp. The steps are to keep the same functionality of the web page , additional to clean the code and to use semantic HTML tags and to add comments html and css file.
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
 
-> Always leave the code you are editing a little cleaner than you found it.
+## Webpage
 
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+The following sreenshots are what the user can see when visit this webpage.  
 
-## User Story
+<img src="./assets/images/readme/webpage1.png" alt="webpage">
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
 
-## Acceptance Criteria
+<img src="./assets/images/readme/webpage2.png" alt="webpage">
 
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
 
-## Review
+<img src="./assets/images/readme/webpage3.png" alt="webpage">
 
-You are required to submit the following for review:
 
-* The URL of the deployed application.
+## HTML and CSS
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+The Following screenshots are what the user can't see with the first look but a full stack web developer could read and 
+understand . The comments could hepl the full stack web developer to understand quicker .
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+<img src="./assets/images/readme/htmlFIle1.png" alt="html">
+
+
+<img src="./assets/images/readme/htmlFile2.png" alt="html">
+
+
+<img src="./assets/images/readme/cssFIle1.png" alt="css">
+
+
+<img src="./assets/images/readme/cssFile2.png" alt="css">
